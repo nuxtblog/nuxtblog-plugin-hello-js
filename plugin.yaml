@@ -1,6 +1,6 @@
 id: nuxtblog-plugin-hello-js
 title: Hello JS
-version: 0.2.3
+version: 0.2.4
 icon: i-tabler-brand-javascript
 author: nuxtblog
 description: Goja JS 插件示例，展示路由注册和设置读取
