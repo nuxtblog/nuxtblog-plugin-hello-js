@@ -1,0 +1,24 @@
+id: nuxtblog-plugin-hello-js
+title: Hello JS
+version: 0.2.0
+icon: i-tabler-brand-javascript
+author: nuxtblog
+description: Goja JS 插件示例，展示路由注册和设置读取
+
+type: js
+runtime: interpreted
+trust_level: official
+license: MIT
+sdk_version: "1.0.0"
+priority: 99
+
+tags: [demo, example]
+
+js_entry: dist/plugin.js
+
+settings:
+  - key: greeting
+    label: 问候语
+    type: string
+    default: "Hello from Goja!"
+    description: GET /api/plugin/nuxtblog-plugin-hello-js/hello 返回的问候内容
